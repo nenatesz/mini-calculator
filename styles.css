@@ -1,0 +1,106 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    height: 32px;
+    padding: 16px;
+    background-color: #34476a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+table{
+    margin: 64px auto;
+    background-color: #9dd2ea;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* #calc_display{
+    position: absolute;
+    max-width: 80%;
+    left: 58%;
+    top: 10%;
+} */
+
+input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2)
+
+}
+
+input:hover{
+    border: 0 solid #000;
+    color: #fff;
+    background-color: #8f5fda;
+    border-radius: 5px;
+    width: 60px;
+    height: 50px;
+    float: left; 
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #644294;
+}
+
+.operator{
+    background-color: #f1ff92;
+    position: relative;
+}
+
+.operator:hover {
+    background-color: #e7f56b;
+    box-shadow: 0 4px #b7c259;
+    color: #495069;
+  }
+  #clear {
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ff9fa8;
+    margin-bottom: 15px;
+  }
+  /* hover */
+  #clear:hover {
+    float: left;
+    display: block;
+    background-color: #f297a0;
+    margin-bottom: 15px;
+    box-shadow: 0 4px #cc7f86;
+  }
+  
+  #calc_display {
+    width: 270px;
+    font-size: 26px;
+    text-align: left;
+    background-color: #f1faeb;
+    float: left;
+  }
+  /* answer hover effect */
+  #calc_display:hover {
+    width: 270px;
+    font-size: 26px;
+    text-align: left;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    background-color: #f1faeb;
+    color: #495069;
+  }
+  

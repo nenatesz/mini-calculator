@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav>Mini Calculator</nav>
+    <form class="form">
+        <table>
+            <tr>
+                <td>
+                    <div class="num-button">
+                    <input type="text" size="16" id="calc_display" value="0" />
+                    <br/>
+                    <input  type="button" name="one" value="1"/>
+                    <input  type="button" name="two" value="2"/>
+                    <input  type="button" name="three" value="3" />
+                    <input type="button" name="plus" value="+"  class="operator"  />
+                    <br />
+                    <input type="button" name="four" value="4" />
+                    <input type="button" name="five" value="5" />
+                    <input type="button" name="six" value="6" />
+                    <input type="button" name="minus" value="-" class="operator" />
+                    <br />
+                    <input type="button" name="seven" value="7" />
+                    <input type="button" name="eight" value="8"/>
+                    <input type="button" name="nine" value="9"/>
+                    <input type="button" name="times" value="*" class="operator" />
+                    <br />
+                    <input type="button" id="clear" name="clear" value="C" />
+                    <input type="button" name="zero" value="0" />
+                    <input type="button" name="equal_to" value="=" id="total" />
+                    <input type="button" name="division" value="/" class="operator" />
+                    <br>
+                </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src='app.js'></script>
+</body>
+</html>
+
+
+
+<!-- <td>
+    <input type="text" size="16" id="calc_display" value="0" />
+    <br/>
+    <input class="num-button" type="button" name="one" value="1" onclick="clickNum(1)"/>
+    <input class="num-button" type="button" name="two" value="2" onclick="clickNum(2)"/>
+    <input class="num-button" type="button" name="three" value="3" onclick="clickNum(3)" />
+    <input type="button" name="plus" value="+"  class="operator" onclick="clickOperator('+')" />
+    <br />
+    <input class="num-button" type="button" name="four" value="4"onclick="clickNum(4)" />
+    <input class="num-button" type="button" name="five" value="5" onclick="clickNum(5)" />
+    <input class="num-button" type="button" name="six" value="6" onclick="clickNum(6)" />
+    <input type="button" name="minus" value="-" class="operator" onclick="clickOperator('-')" />
+    <br />
+    <input class="num-button" type="button" name="seven" value="7" onclick="clickNum(7)" />
+    <input class="num-button" type="button" name="eight" value="8" onclick="clickNum(8)"/>
+    <input class="num-button" type="button" name="nine" value="9" onclick="clickNum(9)"/>
+    <input type="button" name="times" value="*" class="operator" onclick="clickOperator('*')"/>
+    <br />
+    <input type="button" id="clear" name="clear" value="C" onclick="clickClear()"/>
+    <input class="num-button" type="button" name="zero" value="0" onclick="clickNum(0)" />
+    <input type="button" name="equal_to" value="=" onclick="clickTotal()"/>
+    <input type="button" name="division" value="/" class="operator" onclick="clickOperator('/')"/>
+    <br>
+</td> -->
